@@ -1,38 +1,208 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+b {
+  font-weight: 9000;
+}
+
+.page {
+  background-color: #282c34;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+#resume-page {
+  height: 100vh;
+}
+
+#contact-page {
+  height: 100vh;
+}
+
+#main-page {
+  height: 100vh;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #282c34;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#header-bar {
+
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+#header-title {
+  width: 60px;
+  height: 50px;
+}
+
+#header-title-img {
+  top: -2.5px;
+  position: relative;
+}
+
+#header-nav {
+  padding-left: 5%;
+  width: 95%;
+}
+
+#header-nav-list {
+  display: flex;
+  justify-content: flex-end
+}
+
+.header-nav-item {
+  color: #FEFDFB;
+  padding-left: 5%;
+  font-size: 1.5rem;
+}
+
+.header-nav-item-text {
+  color: #FEFDFB;
+}
+
+#content-wrapper {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+.content-block-title {
+  letter-spacing: 5px;
+  color: #FEFDFB;
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.button-container {
+  display: flex;
+}
+
+.content-block-button {
+  color: #FEFDFB;
+  letter-spacing: 2px;
+  font-size: 30px;
+  border: 2px solid;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#download-resume-button {
+  color: #FEFDFB;
+  letter-spacing: 2px;
+  font-size: 30px;
+  border: 2px solid;
+  padding: 15px;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+#download-resume-button:hover {
+  background-color: rgb(71, 154, 238);
+}
+
+#download-resume-button-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FEFDFB;
+  text-decoration: none;
+}
+
+.content-block-button:hover {
+  background-color: rgb(71, 154, 238);
+}
+
+.content-block-paragraph {
+  color: #FEFDFB;
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+#badge {
+  width: 300px;
+  height: 450px;
+}
+
+.page-link {
+  text-decoration: none;
+}
+
+.page-link nav {
+  text-decoration: none;
+}
+
+li {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.content-block-shout {
+  color: #FEFDFB;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content-block-image {
+  margin-bottom: 30px;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.footer {
+  display: flex;
+}
+
+.content-block-button {
+  margin-top: 0
+}
+
+.yut-game iframe {
+  border: none;
+  border-radius: 20px;
+  background: #000000;
+}
+
+#yutgame-page {
+  height: 1050px;
+}
+
+#yolov8-results {
+  margin-bottom: 0;
 }
